@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeda104c-93d1-41db-b9be-73ce33ee958c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,13 +23,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="322">
+              <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
               <folding>
                 <element signature="e#104#105#0" expanded="true" />
                 <element signature="e#133#134#0" expanded="true" />
@@ -47,11 +50,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+            <state relative-caret-position="292">
+              <caret line="59" column="86" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#74#75#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="69" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,12 +106,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Card.java" />
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-18" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -170,13 +200,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CardTest.should_return_1_when_cardA_smaller_than_cardB">
-    <configuration name="CardTest.should_get_card_mark_when_call_getNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PlayerTest">
+    <configuration name="CardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;CardTest.should_get_card_mark_when_call_getNumber&quot;" />
+        <option name="scriptParameters" value="--tests &quot;CardTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardTest.should_get_card_mark_when_call_getMark" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CardTest.should_get_card_mark_when_call_getMark&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -211,12 +261,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CardTest.should_return_0_when_cardA_equals_to_cardB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;CardTest.should_return_0_when_cardA_equals_to_cardB&quot;" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -231,32 +281,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CardTest.should_return_1_when_cardA_bigger_than_cardB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayerTest.should_return_all_cards_player_had_when_call_getCards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;CardTest.should_return_1_when_cardA_bigger_than_cardB&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CardTest.should_return_1_when_cardA_smaller_than_cardB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;CardTest.should_return_1_when_cardA_smaller_than_cardB&quot;" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_all_cards_player_had_when_call_getCards&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -273,10 +303,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CardTest.should_return_1_when_cardA_smaller_than_cardB" />
-        <item itemvalue="Gradle.CardTest.should_return_0_when_cardA_equals_to_cardB" />
-        <item itemvalue="Gradle.CardTest.should_return_1_when_cardA_bigger_than_cardB" />
-        <item itemvalue="Gradle.CardTest.should_get_card_mark_when_call_getNumber" />
+        <item itemvalue="Gradle.PlayerTest" />
+        <item itemvalue="Gradle.PlayerTest.should_return_all_cards_player_had_when_call_getCards" />
+        <item itemvalue="Gradle.CardTest" />
+        <item itemvalue="Gradle.CardTest.should_get_card_mark_when_call_getMark" />
         <item itemvalue="Gradle.CardTest.should_get_card_number_when_call_getNumber" />
       </list>
     </recent_temporary>
@@ -291,7 +321,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566119567715</updated>
-      <workItem from="1566119571195" duration="2523000" />
+      <workItem from="1566119571195" duration="3548000" />
     </task>
     <task id="LOCAL-00001" summary="[alexander][test][should_return_1_when_cardA_bigger_than_cardB]">
       <created>1566123353545</created>
@@ -307,40 +337,74 @@
       <option name="project" value="LOCAL" />
       <updated>1566123577851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[alexander][test&amp;impl][should_return_1_when_cardA_smaller_than_cardB, should_return_0_when_cardA_equals_to_cardB]">
+      <created>1566123677240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566123677240</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[alexander][test&amp;impl][should_return_1_when_cardA_smaller_than_cardB, should_return_0_when_cardA_equals_to_cardB]">
+      <created>1566123756934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566123756934</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[alexander][test&amp;impl][should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA]">
+      <created>1566124343000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566124343000</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[alexander][test][should_return_all_cards_player_had_when_call_getCards]">
+      <created>1566124588776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566124588776</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CardTest_should_get_card_number_when_call_getNumber - 2019.08.18 at 18h 00m 35s.xml">
+    <history-entry file="CardTest_should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA - 2019.08.18 at 18h 26m 27s.xml">
+      <configuration name="CardTest.should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CardTest_should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA - 2019.08.18 at 18h 26m 31s.xml">
+      <configuration name="CardTest.should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CardTest_should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA - 2019.08.18 at 18h 26m 41s.xml">
+      <configuration name="CardTest.should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CardTest_should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA - 2019.08.18 at 18h 31m 01s.xml">
+      <configuration name="CardTest.should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CardTest - 2019.08.18 at 18h 31m 10s.xml">
+      <configuration name="CardTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CardTest_should_get_card_number_when_call_getNumber - 2019.08.18 at 18h 31m 29s.xml">
       <configuration name="CardTest.should_get_card_number_when_call_getNumber" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CardTest_should_get_card_number_when_call_getNumber - 2019.08.18 at 18h 05m 42s.xml">
-      <configuration name="CardTest.should_get_card_number_when_call_getNumber" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTest - 2019.08.18 at 18h 31m 34s.xml">
+      <configuration name="CardTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CardTest_should_get_card_mark_when_call_getNumber - 2019.08.18 at 18h 08m 46s.xml">
-      <configuration name="CardTest.should_get_card_mark_when_call_getNumber" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTest_should_get_card_mark_when_call_getMark - 2019.08.18 at 18h 31m 44s.xml">
+      <configuration name="CardTest.should_get_card_mark_when_call_getMark" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CardTest_should_return_1_when_cardA_bigger_than_cardB - 2019.08.18 at 18h 14m 39s.xml">
-      <configuration name="CardTest.should_return_1_when_cardA_bigger_than_cardB" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTest - 2019.08.18 at 18h 31m 52s.xml">
+      <configuration name="CardTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CardTest_should_return_1_when_cardA_bigger_than_cardB - 2019.08.18 at 18h 18m 31s.xml">
-      <configuration name="CardTest.should_return_1_when_cardA_bigger_than_cardB" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CardTest_should_return_1_when_cardA_bigger_than_cardB - 2019.08.18 at 18h 18m 48s.xml">
-      <configuration name="CardTest.should_return_1_when_cardA_bigger_than_cardB" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CardTest_should_return_1_when_cardA_bigger_than_cardB - 2019.08.18 at 18h 19m 05s.xml">
-      <configuration name="CardTest.should_return_1_when_cardA_bigger_than_cardB" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CardTest_should_return_1_when_cardA_bigger_than_cardB - 2019.08.18 at 18h 19m 21s.xml">
-      <configuration name="CardTest.should_return_1_when_cardA_bigger_than_cardB" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTest - 2019.08.18 at 18h 32m 01s.xml">
+      <configuration name="CardTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2523000" />
+    <option name="totallyTimeSpent" value="3548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -348,7 +412,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" weight="0.329718" />
@@ -358,7 +422,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,13 +445,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[alexander][test][should_return_1_when_cardA_bigger_than_cardB]" />
     <MESSAGE value="[alexander][impl][should_return_1_when_cardA_bigger_than_cardB]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[alexander][impl][should_return_1_when_cardA_bigger_than_cardB]" />
+    <MESSAGE value="[alexander][test&amp;impl][should_return_1_when_cardA_smaller_than_cardB, should_return_0_when_cardA_equals_to_cardB]" />
+    <MESSAGE value="[alexander][test&amp;impl][should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA]" />
+    <MESSAGE value="[alexander][test][should_return_all_cards_player_had_when_call_getCards]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[alexander][test][should_return_all_cards_player_had_when_call_getCards]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="322">
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
           <folding>
             <element signature="e#104#105#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
@@ -399,10 +466,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="292">
+          <caret line="59" column="86" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
