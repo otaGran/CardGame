@@ -185,5 +185,17 @@ public class PlayerTest {
         assertEquals(4, player.getLevel());
     }
 
+    @Test
+    public void should_return_3_when_players_has_two_pairs(){
+        Card card1 = new Card("9H");
+        Card card2 = new Card("9S");
+        Card card3 = new Card("8D");
+        Card card4 = new Card("8C");
+        Card card5 = new Card("6H");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(3, player.getLevel());
+    }
+
 
 }
