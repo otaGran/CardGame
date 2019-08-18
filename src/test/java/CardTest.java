@@ -19,7 +19,7 @@ public class CardTest {
     }
 
     @Test
-    public void should_return_1_when_cardA_bigger_than_cardB() {
+    public void should_return_positive_when_cardA_bigger_than_cardB() {
         Card cardA = new Card("2H");
         Card cardB = new Card("3H");
 
@@ -33,7 +33,7 @@ public class CardTest {
         assertEquals(0 , cardA.compareTo(cardB));
     }
     @Test
-    public void should_return_-1_when_cardA_smaller_than_cardB() {
+    public void should_return_negative_when_cardA_smaller_than_cardB() {
         Card cardA = new Card("3H");
         Card cardB = new Card("2H");
 
