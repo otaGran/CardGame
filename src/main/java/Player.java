@@ -52,4 +52,12 @@ public class Player {
         }
         return false;
     }
+
+    public boolean hasFour() {
+        for (Map.Entry<String, Integer> entry : countedCards) {
+            if( entry.getValue() == 4)
+                return true;
+        }
+        return false;
+    }
 }
