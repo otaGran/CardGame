@@ -158,7 +158,7 @@ public class PlayerTest {
         Card card5 = new Card("KH");
         List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
         Player player = new Player(cardList);
-        assertEquals(7, player.getLevel());
+        assertEquals(6, player.getLevel());
     }
 
 

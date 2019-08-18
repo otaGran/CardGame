@@ -25,6 +25,8 @@ public class Player {
             return 8;
         if(hasFullHouse())
             return 7;
+        if(hasFlush())
+            return 6;
 
 
         return -1;
