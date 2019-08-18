@@ -14,9 +14,21 @@ public class PlayerTest {
         Card card4 = new Card("4H");
         Card card5 = new Card("5H");
         List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
-
         Player player = new Player(cardList);
-
         assertEquals(cardList, player.getCards());
     }
+
+    @Test
+    public void should_return_2_when_players_has_only_one_pair(){
+        Card card1 = new Card("2H");
+        Card card2 = new Card("2H");
+        Card card3 = new Card("6H");
+        Card card4 = new Card("AH");
+        Card card5 = new Card("5H");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(2, player.getLevel());
+    }
+
+
 }
