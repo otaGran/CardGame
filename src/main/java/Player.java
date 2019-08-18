@@ -27,6 +27,8 @@ public class Player {
             return 7;
         if(hasFlush())
             return 6;
+        if(hasStraight())
+            return 5;
 
 
         return -1;

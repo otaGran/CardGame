@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeda104c-93d1-41db-b9be-73ce33ee958c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <list id="5d069f7b-64a5-4cce-a2bd-ecf295b037ab" name="Revert &quot;[alexander][impl][should_return_9_when_players_has_straight_flush]&quot;" comment="Revert &quot;[alexander][impl][should_return_9_when_players_has_straight_flush]&quot;&#10;&#10;This reverts commit bfb29195" />
@@ -68,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
@@ -86,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="157" column="33" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
+            <state relative-caret-position="330">
+              <caret line="178" column="34" lean-forward="true" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -211,7 +217,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PlayerTest.should_return_6_when_players_has_flush">
+  <component name="RunManager" selected="Gradle.PlayerTest.should_return_4_when_players_has_three_of_a_kind">
+    <configuration name="PlayerTest.should_return_4_when_players_has_three_of_a_kind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_4_when_players_has_three_of_a_kind&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlayerTest.should_return_5_when_players_has_straight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_5_when_players_has_straight&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PlayerTest.should_return_6_when_players_has_flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -272,53 +318,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlayerTest.should_return_true_when_players_has_flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_flush&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PlayerTest.should_return_true_when_players_has_straight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_straight&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PlayerTest.should_return_4_when_players_has_three_of_a_kind" />
+        <item itemvalue="Gradle.PlayerTest.should_return_5_when_players_has_straight" />
         <item itemvalue="Gradle.PlayerTest.should_return_6_when_players_has_flush" />
         <item itemvalue="Gradle.PlayerTest.should_return_7_when_players_has_full_house" />
         <item itemvalue="Gradle.PlayerTest.should_return_9_when_players_has_straight_flush" />
-        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_flush" />
-        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_straight" />
       </list>
     </recent_temporary>
   </component>
@@ -502,25 +508,31 @@
       <option name="project" value="LOCAL" />
       <updated>1566137629243</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="[alexander][test][should_return_6_when_players_has_flush]">
+      <created>1566137680190</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1566137680190</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[alexander][impl][should_return_6_when_players_has_flush]">
+      <created>1566137709482</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1566137709482</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[alexander][test][should_return_5_when_players_has_straight]">
+      <created>1566137755292</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1566137755292</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 22h 05m 47s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 22h 06m 01s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 06m 08s.xml">
-      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 06m 22s.xml">
-      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 06m 29s.xml">
-      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 07m 20s.xml">
       <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -536,9 +548,24 @@
     <history-entry file="PlayerTest_should_return_7_when_players_has_full_house - 2019.08.18 at 22h 13m 41s.xml">
       <configuration name="PlayerTest.should_return_7_when_players_has_full_house" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="PlayerTest_should_return_6_when_players_has_flush - 2019.08.18 at 22h 14m 27s.xml">
+      <configuration name="PlayerTest.should_return_6_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PlayerTest_should_return_6_when_players_has_flush - 2019.08.18 at 22h 14m 29s.xml">
+      <configuration name="PlayerTest.should_return_6_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PlayerTest_should_return_6_when_players_has_flush - 2019.08.18 at 22h 15m 01s.xml">
+      <configuration name="PlayerTest.should_return_6_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PlayerTest_should_return_5_when_players_has_straight - 2019.08.18 at 22h 15m 48s.xml">
+      <configuration name="PlayerTest.should_return_5_when_players_has_straight" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PlayerTest_should_return_5_when_players_has_straight - 2019.08.18 at 22h 16m 12s.xml">
+      <configuration name="PlayerTest.should_return_5_when_players_has_straight" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10989000" />
+    <option name="totallyTimeSpent" value="11128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,7 +663,10 @@
     <MESSAGE value="[alexander][impl][should_return_9_when_players_has_straight_flush]" />
     <MESSAGE value="[alexander][test][should_return_7_when_players_has_full_house]" />
     <MESSAGE value="[alexander][impl][should_return_7_when_players_has_full_house]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[alexander][impl][should_return_7_when_players_has_full_house]" />
+    <MESSAGE value="[alexander][test][should_return_6_when_players_has_flush]" />
+    <MESSAGE value="[alexander][impl][should_return_6_when_players_has_flush]" />
+    <MESSAGE value="[alexander][test][should_return_5_when_players_has_straight]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[alexander][test][should_return_5_when_players_has_straight]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
@@ -665,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
@@ -681,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="157" column="33" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
+        <state relative-caret-position="330">
+          <caret line="178" column="34" lean-forward="true" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
         </state>
       </provider>
     </entry>
