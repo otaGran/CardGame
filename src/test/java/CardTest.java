@@ -13,5 +13,12 @@ public class CardTest {
         assertEquals(card.getNumber(), "2");
 
     }
+    @Test
+    public void should_get_card_mark_when_call_getMark(){
+        Card card = new Card("2H");
+
+        assertEquals(card.getMark(), "H");
+
+    }
 
 }
