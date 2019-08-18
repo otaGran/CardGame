@@ -25,5 +25,19 @@ public class CardTest {
 
         assertEquals(1 , cardA.compareTo(cardB));
     }
+    @Test
+    public void should_return_0_when_cardA_equals_to_cardB() {
+        Card cardA = new Card("2H");
+        Card cardB = new Card("2H");
+
+        assertEquals(0 , cardA.compareTo(cardB));
+    }
+    @Test
+    public void should_return_-1_when_cardA_smaller_than_cardB() {
+        Card cardA = new Card("3H");
+        Card cardB = new Card("2H");
+
+        assertEquals(-1 , cardA.compareTo(cardB));
+    }
 
 }
