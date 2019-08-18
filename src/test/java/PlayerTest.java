@@ -173,7 +173,17 @@ public class PlayerTest {
         assertEquals(5, player.getLevel());
     }
 
-
+    @Test
+    public void should_return_4_when_players_has_three_of_a_kind(){
+        Card card1 = new Card("9H");
+        Card card2 = new Card("9S");
+        Card card3 = new Card("9D");
+        Card card4 = new Card("9C");
+        Card card5 = new Card("6H");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(4, player.getLevel());
+    }
 
 
 }
