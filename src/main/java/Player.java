@@ -60,4 +60,12 @@ public class Player {
         }
         return false;
     }
+
+    public boolean hasFlush() {
+        Set<String> keyset = new HashSet<>();
+        for (Card card: cards) {
+            keyset.add(card.getMark());
+        }
+        return keyset.size() == 1;
+    }
 }
