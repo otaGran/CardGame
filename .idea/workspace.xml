@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeda104c-93d1-41db-b9be-73ce33ee958c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
+    <list id="5d069f7b-64a5-4cce-a2bd-ecf295b037ab" name="Revert &quot;[alexander][impl][should_return_9_when_players_has_straight_flush]&quot;" comment="Revert &quot;[alexander][impl][should_return_9_when_players_has_straight_flush]&quot;&#10;&#10;This reverts commit bfb29195" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -93,11 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -119,14 +109,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Card.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
       </list>
     </option>
   </component>
@@ -220,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PlayerTest.should_return_true_when_players_has_straight">
+  <component name="RunManager" selected="Gradle.PlayerTest.should_return_9_when_players_has_straight_flush">
     <configuration name="CardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -261,12 +252,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlayerTest.should_return_true_when_players_has_flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_flush&quot;" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_9_when_players_has_straight_flush&quot; --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -281,12 +272,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlayerTest.should_return_true_when_players_has_full_house" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayerTest.should_return_true_when_players_has_flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_full_house&quot;" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_flush&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -323,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PlayerTest.should_return_9_when_players_has_straight_flush" />
+        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_flush" />
         <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_straight" />
         <item itemvalue="Gradle.PlayerTest" />
         <item itemvalue="Gradle.CardTest" />
-        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_full_house" />
-        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_flush" />
       </list>
     </recent_temporary>
   </component>
@@ -487,9 +478,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 10s.xml">
-      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 50s.xml">
       <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -517,9 +505,12 @@
     <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 58s.xml">
       <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 01m 15s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10550000" />
+    <option name="totallyTimeSpent" value="10655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -537,10 +528,10 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -559,6 +550,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[alexander][test][should_return_1_when_cardA_bigger_than_cardB]" />
@@ -624,11 +641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
         </state>
       </provider>
     </entry>

@@ -23,7 +23,7 @@ public class Card {
 
     Card(String cardInfo) {
         number = cardInfo.substring(0, cardInfo.length()-1);
-        mark = cardInfo.substring(1);
+        mark = cardInfo.substring(cardInfo.length()-1);
         if(AJQKMap.containsKey(number))
             number = AJQKMap.get(number);
 
