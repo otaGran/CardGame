@@ -149,5 +149,17 @@ public class PlayerTest {
         assertEquals(7, player.getLevel());
     }
 
+    @Test
+    public void should_return_6_when_players_has_flush(){
+        Card card1 = new Card("AH");
+        Card card2 = new Card("9H");
+        Card card3 = new Card("6H");
+        Card card4 = new Card("4H");
+        Card card5 = new Card("KH");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(7, player.getLevel());
+    }
+
 
 }
