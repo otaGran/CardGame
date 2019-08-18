@@ -134,7 +134,19 @@ public class PlayerTest {
         Card card5 = new Card("KH");
         List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
         Player player = new Player(cardList);
-        assertEquals(9, player.getLevel());
+        assertEquals(8, player.getLevel());
+    }
+
+    @Test
+    public void should_return_7_when_players_has_full_house(){
+        Card card1 = new Card("9H");
+        Card card2 = new Card("9S");
+        Card card3 = new Card("9D");
+        Card card4 = new Card("KC");
+        Card card5 = new Card("KH");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(7, player.getLevel());
     }
 
 
