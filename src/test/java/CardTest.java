@@ -19,11 +19,11 @@ public class CardTest {
     }
 
     @Test
-    public void should_return_1_when_cardA_bigger_than_cardB(){
-        Card cardA = new Card("3H");
-        Card cardB = new Card("2H");
+    public void should_return_1_when_cardA_bigger_than_cardB() {
+        Card cardA = new Card("2H");
+        Card cardB = new Card("3H");
 
-        assertTrue(cardA.compareTo(cardB));
+        assertEquals(1 , cardA.compareTo(cardB));
     }
 
 }
