@@ -29,6 +29,8 @@ public class Player {
             return 6;
         if(hasStraight())
             return 5;
+        if(hasThree())
+            return 4;
 
 
         return -1;

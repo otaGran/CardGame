@@ -178,7 +178,7 @@ public class PlayerTest {
         Card card1 = new Card("9H");
         Card card2 = new Card("9S");
         Card card3 = new Card("9D");
-        Card card4 = new Card("9C");
+        Card card4 = new Card("8C");
         Card card5 = new Card("6H");
         List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
         Player player = new Player(cardList);
