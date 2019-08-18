@@ -31,6 +31,9 @@ public class Player {
             return 5;
         if(hasThree())
             return 4;
+        if(hasTwoPair())
+            return 3;
+
 
 
         return -1;
