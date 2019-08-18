@@ -10,7 +10,7 @@ public class Player {
 
     Player(List<Card> cards) {
         this.cards = cards;
-
+        countCards();
 
     }
 
@@ -23,7 +23,7 @@ public class Player {
     }
 
 
-    public void countCards(){
+    private void countCards(){
         countedCards = new ArrayList<>(this.cards.stream()
                 .map(Card::getNumber)
                 .collect(Collectors.toMap(poker -> poker, poker -> 1, Integer::sum))
