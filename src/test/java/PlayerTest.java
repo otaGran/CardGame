@@ -90,4 +90,17 @@ public class PlayerTest {
 
     }
 
+    @Test
+    public void should_return_true_when_players_has_full_house(){
+        Card card1 = new Card("2H");
+        Card card2 = new Card("2H");
+        Card card3 = new Card("5H");
+        Card card4 = new Card("2H");
+        Card card5 = new Card("5H");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertTrue( player.hasFullHouse());
+
+    }
+
 }

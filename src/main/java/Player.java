@@ -68,4 +68,8 @@ public class Player {
         }
         return keyset.size() == 1;
     }
+
+    public boolean hasTwoPair() {
+        return countedCards.stream().filter(x -> x.getValue() == 2).count() == 2;
+    }
 }
