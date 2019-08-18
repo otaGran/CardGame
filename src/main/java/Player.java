@@ -37,7 +37,7 @@ public class Player {
             return 2;
 
 
-        return -1;
+        return 1;
 
     }
 
