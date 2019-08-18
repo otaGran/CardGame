@@ -23,6 +23,8 @@ public class Player {
             return 9;
         if(hasFour())
             return 8;
+        if(hasFullHouse())
+            return 7;
 
 
         return -1;
