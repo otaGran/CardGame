@@ -21,6 +21,8 @@ public class Player {
     public int getLevel() {
         if(hasStraight() && hasFlush())
             return 9;
+        if(hasFour())
+            return 8;
 
 
         return -1;
