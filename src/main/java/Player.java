@@ -33,7 +33,8 @@ public class Player {
             return 4;
         if(hasTwoPair())
             return 3;
-
+        if(hasPair())
+            return 2;
 
 
         return -1;
