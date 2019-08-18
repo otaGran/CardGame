@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeda104c-93d1-41db-b9be-73ce33ee958c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <list id="5d069f7b-64a5-4cce-a2bd-ecf295b037ab" name="Revert &quot;[alexander][impl][should_return_9_when_players_has_straight_flush]&quot;" comment="Revert &quot;[alexander][impl][should_return_9_when_players_has_straight_flush]&quot;&#10;&#10;This reverts commit bfb29195" />
@@ -39,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            <state relative-caret-position="345">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#104#105#0" expanded="true" />
@@ -67,13 +73,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+            <state relative-caret-position="261">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#1786#1787#0" expanded="true" />
                 <element signature="e#1874#1875#0" expanded="true" />
                 <element signature="e#1911#1912#0" expanded="true" />
@@ -86,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+            <state relative-caret-position="146">
+              <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -115,8 +120,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
       </list>
     </option>
@@ -474,43 +479,57 @@
       <option name="project" value="LOCAL" />
       <updated>1566135105257</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="[alexander][test][should_return_9_when_players_has_straight_flush]">
+      <created>1566137063027</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1566137063027</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[alexander][impl][should_return_9_when_players_has_straight_flush]">
+      <created>1566137285513</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1566137285513</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 50s.xml">
-      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 05m 28s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 51s.xml">
-      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 05m 30s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 54s.xml">
-      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 05m 32s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest - 2019.08.18 at 21h 52m 38s.xml">
-      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 54m 43s.xml">
+    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 22h 05m 47s.xml">
       <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 02s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 22h 06m 01s.xml">
+      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 11s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 06m 08s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 28s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 06m 22s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 58s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 06m 29s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 01m 15s.xml">
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 07m 20s.xml">
+      <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PlayerTest_should_return_9_when_players_has_straight_flush - 2019.08.18 at 22h 07m 29s.xml">
       <configuration name="PlayerTest.should_return_9_when_players_has_straight_flush" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10655000" />
+    <option name="totallyTimeSpent" value="10897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -528,10 +547,10 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,7 +614,9 @@
     <MESSAGE value="[alexander][test][should_return_true_when_players_has_full_house]" />
     <MESSAGE value="[alexander][impl][should_return_true_when_players_has_full_house]" />
     <MESSAGE value="[alexander][test][should_return_true_when_players_has_straight]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[alexander][test][should_return_true_when_players_has_straight]" />
+    <MESSAGE value="[alexander][test][should_return_9_when_players_has_straight_flush]" />
+    <MESSAGE value="[alexander][impl][should_return_9_when_players_has_straight_flush]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[alexander][impl][should_return_9_when_players_has_straight_flush]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
@@ -608,27 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state relative-caret-position="345">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#104#105#0" expanded="true" />
@@ -639,10 +643,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+        <state relative-caret-position="146">
+          <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
         </state>
       </provider>
     </entry>

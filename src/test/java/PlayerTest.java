@@ -125,7 +125,17 @@ public class PlayerTest {
         assertEquals(9, player.getLevel());
     }
 
-
+    @Test
+    public void should_return_8_when_players_has_four_of_a_kind(){
+        Card card1 = new Card("9H");
+        Card card2 = new Card("10H");
+        Card card3 = new Card("JH");
+        Card card4 = new Card("QH");
+        Card card5 = new Card("KH");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(9, player.getLevel());
+    }
 
 
 }
