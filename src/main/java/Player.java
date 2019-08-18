@@ -72,4 +72,8 @@ public class Player {
     public boolean hasTwoPair() {
         return countedCards.stream().filter(x -> x.getValue() == 2).count() == 2;
     }
+
+    public boolean hasFullHouse() {
+        return hasPair() && hasThree();
+    }
 }
