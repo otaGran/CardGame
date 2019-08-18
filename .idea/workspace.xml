@@ -7,7 +7,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,8 +47,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#104#105#0" expanded="true" />
                 <element signature="e#133#134#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
@@ -58,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="59" column="86" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="86" />
+            <state relative-caret-position="322">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,15 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="72" column="81" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="81" />
+            <state relative-caret-position="307">
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#1786#1787#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
+                <element signature="e#1874#1875#0" expanded="true" />
+                <element signature="e#1911#1912#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="84" column="36" lean-forward="true" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+            <state relative-caret-position="284">
+              <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,23 +112,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sout</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Card.java" />
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Card.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="880" />
-    <option name="width" value="1688" />
-    <option name="height" value="1416" />
+    <option name="x" value="-18" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -209,13 +220,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PlayerTest.should_return_true_when_players_has_full_house">
-    <configuration name="PlayerTest.should_return_true_when_players_has_flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PlayerTest.should_return_true_when_players_has_straight">
+    <configuration name="CardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_flush&quot;" />
+        <option name="scriptParameters" value="--tests &quot;CardTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -230,12 +241,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlayerTest.should_return_true_when_players_has_four_of_a_kind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_four_of_a_kind&quot;" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlayerTest.should_return_true_when_players_has_flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_flush&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -270,32 +301,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlayerTest.should_return_true_when_players_has_one_pair" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayerTest.should_return_true_when_players_has_straight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_one_pair&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PlayerTest.should_return_true_when_players_has_three_of_a_kind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_three_of_a_kind&quot;" />
+        <option name="scriptParameters" value="--tests &quot;PlayerTest.should_return_true_when_players_has_straight&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -312,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_straight" />
+        <item itemvalue="Gradle.PlayerTest" />
+        <item itemvalue="Gradle.CardTest" />
         <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_full_house" />
         <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_flush" />
-        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_four_of_a_kind" />
-        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_three_of_a_kind" />
-        <item itemvalue="Gradle.PlayerTest.should_return_true_when_players_has_one_pair" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +341,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566119567715</updated>
-      <workItem from="1566119571195" duration="8786000" />
+      <workItem from="1566119571195" duration="10550000" />
     </task>
     <task id="LOCAL-00001" summary="[alexander][test][should_return_1_when_cardA_bigger_than_cardB]">
       <created>1566123353545</created>
@@ -451,43 +462,64 @@
       <option name="project" value="LOCAL" />
       <updated>1566134386017</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[alexander][impl][should_return_true_when_players_has_full_house]">
+      <created>1566134904133</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566134904133</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[alexander][impl][should_return_true_when_players_has_full_house]">
+      <created>1566135023515</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1566135023515</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[alexander][test][should_return_true_when_players_has_straight]">
+      <created>1566135105257</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1566135105257</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest_should_return_true_when_players_has_one_pair - 2019.08.18 at 21h 04m 08s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_one_pair" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 10s.xml">
+      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_three_of_a_kind - 2019.08.18 at 21h 06m 02s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_three_of_a_kind" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 50s.xml">
+      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_four_of_a_kind - 2019.08.18 at 21h 11m 57s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_four_of_a_kind" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 51s.xml">
+      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 21h 15m 34s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest - 2019.08.18 at 21h 48m 54s.xml">
+      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 21h 15m 58s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest - 2019.08.18 at 21h 52m 38s.xml">
+      <configuration name="PlayerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 21h 16m 53s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 54m 43s.xml">
+      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 21h 17m 03s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 02s.xml">
+      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 21h 17m 58s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 11s.xml">
+      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 21h 18m 17s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 28s.xml">
+      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PlayerTest_should_return_true_when_players_has_flush - 2019.08.18 at 21h 21m 39s.xml">
-      <configuration name="PlayerTest.should_return_true_when_players_has_flush" configurationId="GradleRunConfiguration" />
+    <history-entry file="PlayerTest_should_return_true_when_players_has_straight - 2019.08.18 at 21h 55m 58s.xml">
+      <configuration name="PlayerTest.should_return_true_when_players_has_straight" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8786000" />
+    <option name="totallyTimeSpent" value="10550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -543,26 +575,16 @@
     <MESSAGE value="[alexander][test][should_return_true_when_players_has_flush]" />
     <MESSAGE value="[alexander][impl][should_return_true_when_players_has_flush]" />
     <MESSAGE value="[alexander][impl][should_return_true_when_players_has_two_pair]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[alexander][impl][should_return_true_when_players_has_two_pair]" />
+    <MESSAGE value="[alexander][test][should_return_true_when_players_has_full_house]" />
+    <MESSAGE value="[alexander][impl][should_return_true_when_players_has_full_house]" />
+    <MESSAGE value="[alexander][test][should_return_true_when_players_has_straight]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[alexander][test][should_return_true_when_players_has_straight]" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="59" column="86" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="86" />
+        <state relative-caret-position="322">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -571,23 +593,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="72" column="81" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="81" />
+        <state relative-caret-position="307">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#207#208#0" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="84" column="36" lean-forward="true" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+        <state relative-caret-position="284">
+          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

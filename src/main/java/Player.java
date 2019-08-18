@@ -76,4 +76,11 @@ public class Player {
     public boolean hasFullHouse() {
         return hasPair() && hasThree();
     }
+
+    public boolean hasStraight() {
+
+        int maxValue = countedCards.stream().mapToInt(x -> Integer.parseInt(x.getKey())).max().orElse(-1);
+        int minValue = countedCards.stream().mapToInt(x -> Integer.parseInt(x.getKey())).min().orElse(-1);
+        return countedCards.stream().filter(x -> x.getValue() == 1).count() == 5 && maxValue-minValue ==4;
+    }
 }
