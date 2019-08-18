@@ -15,4 +15,9 @@ public class Card {
         number = cardInfo.substring(0, 1);
         mark = cardInfo.substring(1);
     }
+
+
+    }
+
+
 }
