@@ -22,9 +22,13 @@ public class CardTest {
     public void should_return_positive_when_cardA_bigger_than_cardB() {
         Card cardA = new Card("2H");
         Card cardB = new Card("3H");
-
         assertEquals(1 , cardA.compareTo(cardB));
+
+
     }
+
+
+
     @Test
     public void should_return_0_when_cardA_equals_to_cardB() {
         Card cardA = new Card("2H");
@@ -40,4 +44,23 @@ public class CardTest {
         assertEquals(-1 , cardA.compareTo(cardB));
     }
 
+
+
+
+    @Test
+    public void should_return_positive_when_cardA_bigger_than_cardB_and_contains_JQKA() {
+        Card cardA = new Card("AH");
+        Card cardB = new Card("KH");
+        assertEquals(1 , cardA.compareTo(cardB));
+
+
+    }
+
+    @Test
+    public void should_return_negative_when_cardA_smaller_than_cardB_and_contains_JQKA() {
+        Card cardA = new Card("2H");
+        Card cardB = new Card("AH");
+
+        assertEquals(-1 , cardA.compareTo(cardB));
+    }
 }

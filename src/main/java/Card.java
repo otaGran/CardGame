@@ -19,10 +19,17 @@ public class Card {
     public int compareTo(Card card){
         if(card.getNumber().equals(this.number))
             return 0;
-        else if(card.getNumber().charAt(0) > this.number.charAt(0))
-            return 1;
-        else
-            return -1;
+        else if(this.number.equals("A") || card.getNumber().equals("A")){
+            if (card.getNumber().charAt(0) > this.number.charAt(0) && card.getNumber().charAt(0)!= 'A')
+                return 1;
+            else
+                return -1;
+        }else {
+            if (card.getNumber().charAt(0) > this.number.charAt(0))
+                return 1;
+            else
+                return -1;
+        }
     }
 
 
