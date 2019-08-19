@@ -22,7 +22,7 @@ public class JudgementTest {
         Card card8 = new Card("5D");
         Card card9 = new Card("6S");
         Card card10 = new Card("7D");
-        List<Card> cardList2 = Arrays.asList(card1, card2, card3, card4, card5);
+        List<Card> cardList2 = Arrays.asList(card6, card7, card8, card9, card10);
         Player player2 = new Player(cardList2);
 
         Judgement judgement = new Judgement();

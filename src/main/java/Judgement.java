@@ -7,8 +7,10 @@ public class Judgement {
         int players1Level = player1.getLevel();
         int players2Level = player2.getLevel();
 
-        if(players1Level == players2Level){
+        System.out.println(players1Level+"   "+players2Level);
 
+        if(players1Level == players2Level){
+            return "Draw";
         }
         else{
             if(players1Level > players2Level)
