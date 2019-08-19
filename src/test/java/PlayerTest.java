@@ -247,6 +247,17 @@ public class PlayerTest {
         assertEquals(6, player.getMaxNumber());
     }
 
+    @Test
+    public void shoule_return_maxNumber_when_players_has_three(){
+        Card card1 = new Card("2H");
+        Card card2 = new Card("2D");
+        Card card3 = new Card("2H");
+        Card card4 = new Card("6H");
+        Card card5 = new Card("5S");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(2, player.getMaxNumber());
+    }
 
 
 }
