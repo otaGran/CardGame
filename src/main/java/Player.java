@@ -61,8 +61,10 @@ public class Player {
 
     public boolean hasPair() {
         for (Map.Entry<String, Integer> entry : countedCards) {
-            if( entry.getValue() == 2)
+            if( entry.getValue() == 2) {
+                maxNumber = Integer.parseInt(entry.getKey());
                 return true;
+            }
         }
         return false;
     }
@@ -107,7 +109,7 @@ public class Player {
 
     public int getMaxNumber(){
 
-
+        getLevel();
         return maxNumber;
     }
 }
