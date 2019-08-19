@@ -259,5 +259,16 @@ public class PlayerTest {
         assertEquals(2, player.getMaxNumber());
     }
 
+    @Test
+    public void shoule_return_maxNumber_when_players_has_straight(){
+        Card card1 = new Card("1H");
+        Card card2 = new Card("2D");
+        Card card3 = new Card("3H");
+        Card card4 = new Card("4H");
+        Card card5 = new Card("5S");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(5, player.getMaxNumber());
+    }
 
 }
