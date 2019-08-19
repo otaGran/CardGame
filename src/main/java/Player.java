@@ -6,11 +6,14 @@ public class Player {
     private List<Card> cards;
     private int level;
     private List<Map.Entry<String,Integer>> countedCards;
+    private int maxNumber;
 
 
     Player(List<Card> cards) {
         this.cards = cards;
         countCards();
+        maxNumber = this.cards.stream().mapToInt(x -> Integer.parseInt(x.getNumber())).max().orElse(-1);
+
 
     }
 
@@ -100,5 +103,11 @@ public class Player {
         int maxValue = countedCards.stream().mapToInt(x -> Integer.parseInt(x.getKey())).max().orElse(-1);
         int minValue = countedCards.stream().mapToInt(x -> Integer.parseInt(x.getKey())).min().orElse(-1);
         return countedCards.stream().filter(x -> x.getValue() == 1).count() == 5 && maxValue-minValue ==4;
+    }
+
+    public int getMaxNumber(){
+
+
+        return maxNumber;
     }
 }

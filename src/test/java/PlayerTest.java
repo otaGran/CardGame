@@ -220,7 +220,7 @@ public class PlayerTest {
         Card card5 = new Card("5S");
         List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
         Player player = new Player(cardList);
-        assertEquals("K", player.getMaxNumber());
+        assertEquals(13, player.getMaxNumber());
     }
 
 
