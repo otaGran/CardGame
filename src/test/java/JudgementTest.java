@@ -51,7 +51,7 @@ public class JudgementTest {
 
         Judgement judgement = new Judgement();
 
-        assertEquals("Player 1 win", judgement.judge(player1, player2));
+        assertEquals("Player 2 win", judgement.judge(player1, player2));
     }
 
 }
