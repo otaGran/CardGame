@@ -94,7 +94,10 @@ public class Player {
     }
 
     public boolean hasTwoPair() {
-        return countedCards.stream().filter(x -> x.getValue() == 2).count() == 2;
+        boolean res =  countedCards.stream().filter(x -> x.getValue() == 2).count() == 2;
+        if(res)
+            maxNumber = countedCards.stream().filter(x -> x.getValue() == 2).mapToInt(x -> Integer.parseInt(x.getKey())).max().orElse(-1);
+        return res;
     }
 
     public boolean hasFullHouse() {
