@@ -81,8 +81,10 @@ public class Player {
 
     public boolean hasFour() {
         for (Map.Entry<String, Integer> entry : countedCards) {
-            if( entry.getValue() == 4)
+            if( entry.getValue() == 4) {
+                maxNumber = Integer.parseInt(entry.getKey());
                 return true;
+            }
         }
         return false;
     }
