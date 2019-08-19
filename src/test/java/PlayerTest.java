@@ -295,4 +295,16 @@ public class PlayerTest {
         assertEquals(4, player.getMaxNumber());
     }
 
+    @Test
+    public void shoule_return_maxNumber_when_players_has_four(){
+        Card card1 = new Card("4H");
+        Card card2 = new Card("4S");
+        Card card3 = new Card("4D");
+        Card card4 = new Card("4C");
+        Card card5 = new Card("KS");
+        List<Card> cardList = Arrays.asList(card1, card2, card3, card4, card5);
+        Player player = new Player(cardList);
+        assertEquals(4, player.getMaxNumber());
+    }
+
 }
