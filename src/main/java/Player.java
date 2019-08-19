@@ -71,8 +71,10 @@ public class Player {
 
     public boolean hasThree() {
         for (Map.Entry<String, Integer> entry : countedCards) {
-            if( entry.getValue() == 3)
+            if( entry.getValue() == 3) {
+                maxNumber = Integer.parseInt(entry.getKey());
                 return true;
+            }
         }
         return false;
     }
